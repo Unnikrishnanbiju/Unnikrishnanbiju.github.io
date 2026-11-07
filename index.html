@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Biju Unnikrishnan – QA Engineer (Manual &amp; Automation)</title>
+<meta name="description" content="QA Engineer with 6.8+ years in manual and automation testing: Selenium, Playwright, API testing, SQL, CI/CD. Based in the UAE, available immediately.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@700;800&family=Source+Sans+3:wght@400;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#ece6ff;--card:#fff;--ink:#16121f;--mute:#4d4560;--bd:#16121f;--sh:#16121f;--violet:#6c3df5;--lime:#c9f53b;--coral:#ff6b4a;--sky:#7fd4ff;--on-violet:#fff;
+--c1:#e1d8ff;--c2:#e9fbb0;--c3:#ffd9d0;--c4:#cdeeff;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#150f24;--card:#201833;--ink:#f4f0fc;--mute:#bdb2d6;--bd:#f4f0fc;--sh:#6c3df5;--c1:#3a2a78;--c2:#44521a;--c3:#6a2e23;--c4:#1d4a60}}
+:root[data-theme="dark"]{--bg:#150f24;--card:#201833;--ink:#f4f0fc;--mute:#bdb2d6;--bd:#f4f0fc;--sh:#6c3df5;--c1:#3a2a78;--c2:#44521a;--c3:#6a2e23;--c4:#1d4a60}
+*{box-sizing:border-box}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font:18px/1.6 "Source Sans 3",system-ui,-apple-system,"Segoe UI",Arial,sans-serif;
+background-image:radial-gradient(var(--mute) 1px,transparent 1.2px);background-size:26px 26px;background-attachment:fixed}
+h1,h2,h3{font-family:"Bricolage Grotesque","Segoe UI",Arial,sans-serif;line-height:1.05;margin:0;letter-spacing:-.01em}
+a{color:inherit}
+a:focus-visible,button:focus-visible{outline:4px solid var(--coral);outline-offset:3px}
+.page{max-width:980px;margin:0 auto;padding:28px 18px 70px}
+.box{background:var(--card);border:3px solid var(--bd);border-radius:14px;box-shadow:7px 7px 0 var(--sh)}
+
+/* hero */
+.hero{padding:34px 30px 30px;position:relative;overflow:hidden}
+.hero .tag{display:inline-block;background:var(--lime);color:#16121f;border:3px solid #16121f;border-radius:30px;padding:4px 14px;font-weight:600;font-size:.95rem;transform:rotate(-2deg);margin-bottom:16px}
+.hero h1{font-size:clamp(2.6rem,8vw,5rem);font-weight:800}
+.hero h1 span{display:inline-block;background:var(--violet);color:var(--on-violet);padding:0 12px;border-radius:10px;transform:rotate(-1.5deg);margin-top:6px}
+.hero p.lead{max-width:56ch;font-size:1.2rem;margin:20px 0 22px}
+.cta{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+.btn{display:inline-block;border:3px solid #16121f;border-radius:10px;padding:10px 18px;font:700 1rem "Bricolage Grotesque",sans-serif;text-decoration:none;color:#16121f;background:var(--lime);box-shadow:4px 4px 0 #16121f;cursor:pointer;transition:transform .12s,box-shadow .12s}
+.btn:hover{transform:translate(2px,2px);box-shadow:2px 2px 0 #16121f}
+.btn.alt{background:#fff}
+.btn.hot{background:var(--coral)}
+.bug{position:absolute;right:26px;top:22px;font-size:2.6rem;background:none;border:0;cursor:pointer;line-height:1;padding:6px}
+.bug:hover{transform:rotate(15deg) scale(1.1)}
+.squash{position:absolute;right:20px;top:84px;max-width:170px;font:600 .82rem "JetBrains Mono",monospace;text-align:right;color:var(--mute)}
+.bug.dead{filter:grayscale(1);opacity:.35;transform:rotate(180deg)}
+
+/* stickers */
+.stickers{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:18px;margin:30px 4px}
+.sticker{padding:18px 18px 16px;transform:rotate(var(--r))}
+.sticker:nth-child(1){--r:-1.5deg;background:var(--c1)}
+.sticker:nth-child(2){--r:1.2deg;background:var(--c2)}
+.sticker:nth-child(3){--r:-.8deg;background:var(--c3)}
+.sticker b{display:block;font:800 2.5rem "Bricolage Grotesque",sans-serif;line-height:1}
+.sticker span{display:block;margin-top:6px;font-size:.98rem}
+
+/* sections */
+section{margin-top:44px}
+section>h2{font-size:2.1rem;margin:0 0 18px;display:inline-block;background:var(--coral);color:#16121f;border:3px solid #16121f;border-radius:10px;padding:2px 14px;transform:rotate(-1deg);box-shadow:4px 4px 0 #16121f}
+.about{padding:22px 24px;font-size:1.12rem;max-width:74ch}
+.skillgroup{margin-bottom:16px}
+.skillgroup h3{font-size:1.1rem;margin-bottom:8px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;list-style:none;margin:0;padding:0}
+.chips li{border:2px solid var(--bd);border-radius:8px;padding:3px 11px;font-weight:600;font-size:.95rem;transition:transform .12s}
+.chips li:hover{transform:translateY(-3px) rotate(-2deg)}
+.chips li:nth-child(4n+1){background:var(--c1)}.chips li:nth-child(4n+2){background:var(--c2)}.chips li:nth-child(4n+3){background:var(--c3)}.chips li:nth-child(4n+4){background:var(--c4)}
+.skills{padding:22px 24px}
+
+.job{padding:20px 24px;margin-bottom:22px}
+.job header{display:flex;flex-wrap:wrap;justify-content:space-between;gap:6px 16px;margin-bottom:10px}
+.job h3{font-size:1.45rem}
+.job .co{font-weight:600;color:var(--violet)}
+:root[data-theme="dark"] .job .co{color:#b79cff}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .job .co{color:#b79cff}}
+.when{align-self:start;background:var(--lime);color:#16121f;border:2px solid #16121f;border-radius:20px;padding:2px 12px;font:600 .85rem "JetBrains Mono",monospace}
+.job ul{margin:0;padding-left:22px}
+.job li{margin-bottom:5px}
+.job li::marker{color:var(--coral)}
+
+.edugrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
+.edu{padding:16px 20px}
+.edu strong{font:800 1.5rem "Bricolage Grotesque",sans-serif;display:block}
+.edu span{color:var(--mute)}
+
+.contact{margin-top:50px;padding:30px;text-align:center;background:var(--violet);color:#fff}
+.contact h2{font-size:2.2rem;margin-bottom:8px}
+.contact p{margin:0 0 20px}
+footer{text-align:center;margin-top:26px;color:var(--mute);font-size:.92rem}
+
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+@media (max-width:620px){.hero{padding:26px 20px}.bug{position:static;display:block;margin-bottom:8px;padding:0}.squash{position:static;text-align:left;margin-bottom:10px}.box{box-shadow:5px 5px 0 var(--sh)}}
+@media print{body{background:#fff;color:#000}.box{box-shadow:none}.bug,.squash,.cta,.contact .btn{display:none}.job{break-inside:avoid}}
+</style>
+</head>
+<body>
+<div class="page">
+
+<div class="box hero">
+  <button class="bug" id="bug" type="button" aria-label="Squash the bug">🐛</button>
+  <div class="squash" id="msg">psst, click the bug</div>
+  <div class="tag">Immediate joiner · based in the UAE</div>
+  <h1>Biju<br><span>Unnikrishnan</span></h1>
+  <p class="lead">QA Engineer with 6.8+ years of finding bugs before your users do. Manual and automation testing, from healthcare insurance to banking.</p>
+  <div class="cta">
+    <a class="btn" href="mailto:bunnikrishnan95@gmail.com">Email me</a>
+    <a class="btn alt" href="https://linkedin.com/in/bunnikrishnan">LinkedIn</a>
+    <a class="btn alt" href="https://github.com/Unnikrishnanbiju">GitHub</a>
+    <button class="btn hot" type="button" onclick="window.print()">Save as PDF</button>
+  </div>
+</div>
+
+<div class="stickers">
+  <div class="box sticker"><b>6.8+</b><span>years testing software in healthcare, fintech, banking and e-commerce</span></div>
+  <div class="box sticker"><b>+25%</b><span>more reliable API tests, using Postman and RestAssured</span></div>
+  <div class="box sticker"><b>-20%</b><span>less manual work, by automating repetitive tasks with JavaScript</span></div>
+</div>
+
+<section>
+  <h2>About me</h2>
+  <div class="box about">I plan and design tests, build UI and API automation in Java with Selenium and Playwright, check backends with SQL, and plug everything into CI/CD so each release is tested before it ships. I work side by side with developers and product owners so quality is built in from day one, not bolted on at the end.</div>
+</section>
+
+<section>
+  <h2>Toolbox</h2>
+  <div class="box skills">
+    <div class="skillgroup"><h3>Automation</h3><ul class="chips"><li>Selenium</li><li>Playwright</li><li>Cypress</li><li>TestNG</li><li>Selenium Grid</li><li>BDD/Cucumber</li><li>Page Object Model</li></ul></div>
+    <div class="skillgroup"><h3>API and backend</h3><ul class="chips"><li>Postman</li><li>Swagger</li><li>RestAssured</li><li>REST APIs</li><li>SQL</li><li>Microservices</li></ul></div>
+    <div class="skillgroup"><h3>Testing</h3><ul class="chips"><li>Manual</li><li>Functional</li><li>Regression</li><li>Integration</li><li>Smoke</li><li>End-to-end</li><li>UAT</li><li>Exploratory</li><li>Risk-based</li></ul></div>
+    <div class="skillgroup" style="margin:0"><h3>Code, process and tools</h3><ul class="chips"><li>Java</li><li>JavaScript</li><li>Jenkins</li><li>GitHub Actions</li><li>Git</li><li>Maven</li><li>AWS</li><li>JIRA</li><li>Azure DevOps</li><li>Agile/Scrum</li><li>SDLC/STLC</li></ul></div>
+  </div>
+</section>
+
+<section>
+  <h2>Where I've worked</h2>
+  <article class="box job">
+    <header><div><h3>Automation Engineer-II (QA Automation)</h3><div class="co">Bupa</div></div><div class="when">Oct 2025 – Present</div></header>
+    <ul>
+      <li>Design test plans, scenarios, test cases and traceability matrices for policy management, claims, eligibility and coverage workflows.</li>
+      <li>Build UI and API automation with Java, Selenium, Playwright and TestNG, and maintain the shared framework: reusable utilities, page objects, test data and configuration.</li>
+      <li>Run API (Postman, Swagger, RestAssured) and SQL validation across microservices.</li>
+      <li>Execute smoke, regression, integration and end-to-end tests, using exploratory and risk-based testing.</li>
+      <li>Integrate suites into Jenkins pipelines; take part in stand-ups, sprint planning, retrospectives and code and test reviews.</li>
+      <li>Log and triage defects in JIRA and Azure DevOps, verify fixes, support UAT and guide end users on features and workflows.</li>
+    </ul>
+  </article>
+  <article class="box job">
+    <header><div><h3>Engineer (QA / Test Automation)</h3><div class="co">GlobalLogic</div></div><div class="when">Mar 2021 – May 2025</div></header>
+    <ul>
+      <li>Delivered manual and automation testing for fintech, banking and e-commerce platforms across Agile sprints.</li>
+      <li>Built Selenium/TestNG frameworks using the Page Object Model and integrated them with Jenkins.</li>
+      <li>Automated repeat test runs, reducing the effort spent on regression testing by 30%.</li>
+      <li>Made API tests more dependable by 25% using Postman and RestAssured.</li>
+      <li>Performed SQL validation and end-to-end testing across microservices.</li>
+    </ul>
+  </article>
+  <article class="box job">
+    <header><div><h3>Trade Settlement Senior Representative</h3><div class="co">NTT DATA</div></div><div class="when">Sep 2019 – Mar 2020</div></header>
+    <ul>
+      <li>Analyzed operational data with SQL and automated repetitive tasks in JavaScript, reducing manual effort by 20%.</li>
+      <li>Resolved data-quality issues with cross-functional teams and delivered reports for business decisions.</li>
+    </ul>
+  </article>
+</section>
+
+<section>
+  <h2>School</h2>
+  <div class="edugrid">
+    <div class="box edu"><strong>MCA</strong><span>Amrita Vishwa Vidyapeetham · 2017 – 2019</span></div>
+    <div class="box edu"><strong>BCA</strong><span>Amrita Vishwa Vidyapeetham · 2014 – 2017</span></div>
+  </div>
+</section>
+
+<div class="box contact">
+  <h2>Got a release that needs testing?</h2>
+  <p>I speak English, Malayalam and Hindi, and I can start right away.</p>
+  <a class="btn" href="mailto:bunnikrishnan95@gmail.com">Say hello</a>
+</div>
+<footer>Biju Unnikrishnan · QA Engineer · UAE</footer>
+</div>
+
+<script>
+var bug=document.getElementById("bug"),msg=document.getElementById("msg"),dead=false;
+bug.addEventListener("click",function(){
+  dead=!dead;
+  bug.classList.toggle("dead",dead);
+  msg.textContent=dead?"Bug squashed. I do this daily.":"It’s back. Click again.";
+});
+</script>
+</body>
+</html>
